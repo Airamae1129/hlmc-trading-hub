@@ -1,0 +1,4 @@
+/* App-level overrides; layout styles live in index.css design tokens */
+.App {
+  min-height: 100vh;
+}

@@ -1,0 +1,206 @@
+{
+  "project_name": "HLMC'S ENTERPRISE & SERVICES, INC. (H&SI) x APSA UK LTD",
+  "brand_identity": {
+    "name": "HLMC'S ENTERPRISE & SERVICES, INC.",
+    "brand_mark": "H&SI",
+    "partner": "APSA UK LTD (London, est. 2014)",
+    "sec_registration_date": "June 15, 2023",
+    "tagline": "Sourcing Strength. Supplying Progress.",
+    "positioning": "Award-winning global trading house meets ultra-modern tech brand.",
+    "emotional_tone": "Authoritative, Prestigious, Tactical, Global, Precision-Driven"
+  },
+  "theme": {
+    "default_mode": "dark",
+    "dark_bg": "#04163A",
+    "dark_card_bg": "rgba(4, 22, 58, 0.75)",
+    "light_bg": "#F9FAFB",
+    "light_card_bg": "rgba(255, 255, 255, 0.9)",
+    "toggle_mechanism": "Header pill toggle with smooth theme transition (0.3s ease)"
+  },
+  "color_palette": {
+    "brand_red": "#E3161B",
+    "brand_green": "#0E7A34",
+    "deep_navy": "#04163A",
+    "ocean_blue": "#0B3D7E",
+    "teal": "#4AA3B8",
+    "amber_gold": "#FDB95B",
+    "soft_gold": "#FFD68A",
+    "white": "#FFFFFF",
+    "ink": "#0B1220",
+    "signature_gradient": "linear-gradient(135deg, #04163A 0%, #0B3D7E 35%, #4AA3B8 65%, #FFD68A 100%)",
+    "glass_border": "rgba(255, 214, 138, 0.18)",
+    "gold_glow": "rgba(253, 185, 91, 0.35)",
+    "red_spark_glow": "rgba(227, 22, 27, 0.4)",
+    "rules": [
+      "Use deep_navy (#04163A) as primary dark background base.",
+      "Use brand_red (#E3161B) and brand_green (#0E7A34) sparingly as dynamic sparks, CTA highlights, and trade node triggers.",
+      "Use amber_gold (#FDB95B) and soft_gold (#FFD68A) for metallic typography, glowing trade routes, status badges, and luxury real estate highlights.",
+      "Never use pure black #000000. Always tint dark surfaces with deep navy #04163A."
+    ]
+  },
+  "typography": {
+    "headlines": {
+      "font_family": "'Playfair Display', 'DM Serif Display', Georgia, serif",
+      "style": "High-contrast serif with letter-spacing tracking-tight or tracking-widest for overlines",
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight",
+      "h3_card": "text-xl sm:text-2xl font-semibold"
+    },
+    "body": {
+      "font_family": "'IBM Plex Sans', 'Manrope', system-ui, sans-serif",
+      "text_main": "text-base text-slate-300 dark:text-slate-300 light:text-slate-700 leading-relaxed",
+      "text_muted": "text-sm text-slate-400"
+    },
+    "section_numbers": {
+      "style": "Oversized stencil/mono outline numbers (e.g. 01, 02, 03) rendered in soft_gold/20 at 6xl to 8xl size behind titles."
+    }
+  },
+  "spacing_and_layout": {
+    "spacing_scale": "p-4, p-6, p-8, p-12, p-16, p-24, p-32",
+    "hero_overlay_max_opacity": "bg-black/40 or gradient radial overlay",
+    "bento_grid_rules": "Tetris grid with 12-column base (grid-cols-1 md:grid-cols-8 lg:grid-cols-12), gap-8, mixing tall, wide, and square ratio cards with 3D tilt.",
+    "padding_guard": "Containers with borders MUST have internal padding p-6 or p-8 to prevent text collisions."
+  },
+  "animations_and_motion": {
+    "lenis_smooth_scroll": "Enabled across all pages for luxury inertia scrolling",
+    "preloader": "SVGs draw stroke on H&SI circular seal (red outer ring, green lettering draw, gold monogram glow) with split counter 0% to 100%",
+    "hero_globe": "Three.js / WebGL particle globe with interactive camera rotation and glowing bezier trade route arcs linking Philippines (Manila), Thailand (Bangkok), Vietnam (Ho Chi Minh City), and UK (London)",
+    "headline_reveal": "Masked line-by-line / letter-by-letter stagger reveal using Framer Motion",
+    "custom_cursor": "Interactive custom cursor with inner amber gold dot + lagging outer glass ring expanding on hover",
+    "tilt_glass_cards": "3D tilt glassmorphism cards with mouse-aware sheen and rotating gradient border",
+    "horizontal_product_gallery": "Pinned horizontal scroll section showcasing core commodity lines",
+    "marquee_tickers": "Dual marquee tickers running smooth continuous scroll for Commodity Ticker, Real Clients, and Strategic Partners",
+    "count_up_numbers": "Scroll-triggered count-up animations for key metrics ($500M+ Volume, 4 Global Hubs, 100+ Trade Partners, 100% SEC Compliant)",
+    "reduced_motion": "Full fallback with standard fade-in for prefers-reduced-motion"
+  },
+  "3d_and_canvas_strategy": {
+    "hero_particle_globe": {
+      "library": "Three.js / React Three Fiber / Canvas 2D WebGL fallback",
+      "nodes": [
+        { "name": "Manila (Philippines HQ)", "lat": 14.5995, "lng": 120.9842, "color": "#E3161B" },
+        { "name": "London (APSA UK LTD)", "lat": 51.5074, "lng": -0.1278, "color": "#FDB95B" },
+        { "name": "Bangkok (Thailand Supply)", "lat": 13.7563, "lng": 100.5018, "color": "#0E7A34" },
+        { "name": "Ho Chi Minh City (Vietnam Supply)", "lat": 10.8231, "lng": 106.6297, "color": "#4AA3B8" }
+      ],
+      "arcs": "Animated glowing bezier curves connecting Manila to London, Bangkok, and Vietnam with traveling particle pulses."
+    }
+  },
+  "replacement_image_urls": {
+    "steel_rebars": "https://images.unsplash.com/photo-1623428454598-1bfe414bac03?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "construction_electrical": "https://images.unsplash.com/photo-1635335874521-7987db781153?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "sugar": "https://images.unsplash.com/photo-1621534416159-42d19eb5ed0b?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "diesel": "https://images.unsplash.com/photo-1656988826404-bbb5ccb779bc?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "medical_supplies": "https://images.unsplash.com/photo-1603398938378-e54eab446dde?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "essential_supplies": "https://images.unsplash.com/photo-1550963295-019d8a8a61c5?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "heavy_equipment": "https://images.unsplash.com/photo-1575281923032-f40d94ef6160?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "cement": "https://images.unsplash.com/photo-1730627283177-f43b83c3850c?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "rice": "https://images.unsplash.com/photo-1723475158232-819e29803f4d?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "aggregates": "https://images.unsplash.com/photo-1785791516517-aae4ca2fcfcb?crop=entropy&cs=srgb&fm=jpg&q=85"
+  },
+  "image_urls": {
+    "hero": {
+      "global_trade_cargo": "https://images.unsplash.com/photo-1582517378602-f109b395ce40?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "port_container_ship": "https://images.unsplash.com/photo-1642864835712-a9e172ceeafe?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "dark_abstract_mesh": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?crop=entropy&cs=srgb&fm=jpg&q=85"
+    },
+    "commodities": {
+      "steel_rebars": "https://images.unsplash.com/photo-1623428454598-1bfe414bac03?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "construction_electrical": "https://images.unsplash.com/photo-1635335874521-7987db781153?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "sugar": "https://images.unsplash.com/photo-1621534416159-42d19eb5ed0b?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "diesel": "https://images.unsplash.com/photo-1656988826404-bbb5ccb779bc?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "medical_supplies": "https://images.unsplash.com/photo-1603398938378-e54eab446dde?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "essential_supplies": "https://images.unsplash.com/photo-1550963295-019d8a8a61c5?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "heavy_equipment": "https://images.unsplash.com/photo-1575281923032-f40d94ef6160?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "cement": "https://images.unsplash.com/photo-1730627283177-f43b83c3850c?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "rice": "https://images.unsplash.com/photo-1723475158232-819e29803f4d?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "aggregates": "https://images.unsplash.com/photo-1785791516517-aae4ca2fcfcb?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "steel": "https://images.unsplash.com/photo-1623428454598-1bfe414bac03?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "construction_services": "https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?crop=entropy&cs=srgb&fm=jpg&q=85"
+    },
+    "real_estate": {
+      "clarence_house": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "syon_house": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "marble_house": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?crop=entropy&cs=srgb&fm=jpg&q=85"
+    },
+    "offices": {
+      "london_uk": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "makati_manila": "https://images.unsplash.com/photo-1518684079-3c830dcef090?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "antipolo_hq": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?crop=entropy&cs=srgb&fm=jpg&q=85"
+    }
+  },
+  "sections_breakdown": [
+    {
+      "id": "navbar",
+      "description": "Sticky shrinking glass nav with H&SI circular monogram seal logo, navigation items, currency/trade rate ticker strip, dark/light toggle, and 'Inquire Now' primary button."
+    },
+    {
+      "id": "hero",
+      "description": "3D particle globe + dynamic route arcs + split-text headline reveal + dual magnetic CTAs ('Explore Products', 'Inquire Now') + live commodity ticker."
+    },
+    {
+      "id": "about",
+      "description": "Two-column story connecting HLMC'S (Philippine SEC-registered 2023) and APSA UK LTD (London 2014) with animated connecting trade line and count-up milestone badges."
+    },
+    {
+      "id": "vision_mission",
+      "description": "Interactive split-screen scroll-scrubbed vision & mission story with high-contrast serif quotes."
+    },
+    {
+      "id": "core_values",
+      "description": "6 3D flip/tilt cards: Integrity, Partnership, Excellence, Teamwork, Innovation, Leadership with gold accent borders."
+    },
+    {
+      "id": "product_lines",
+      "description": "Pinned horizontal scroll product gallery with category filter chips (All, Commodities, Construction, Medical, Heavy Equipment, Real Estate) and search."
+    },
+    {
+      "id": "real_estate",
+      "description": "Wimbledon Hills luxury collection showcase featuring Clarence House, Syon House, Marble House by Kimjao APSA HESI with architectural specs."
+    },
+    {
+      "id": "marquees",
+      "description": "Dual infinite marquee bands displaying client logos (Philippine Arena, New Era General Hospital, etc.) and partner logos (Vantaztic Inc, Philflex, etc.)."
+    },
+    {
+      "id": "credentials",
+      "description": "Trust matrix displaying interactive SEC Certificate, BIR Registration, Mayor's Permit, Zoning, Environmental & Sanitary Permits with lightbox preview."
+    },
+    {
+      "id": "inquiry_center",
+      "description": "Dedicated Inquiry Center & Quote Generator with 7 expanding category tiles, multi-step progress bar, and downloadable quote draft."
+    },
+    {
+      "id": "order_tracker",
+      "description": "Live shipment/order status tracker timeline with interactive demo code lookup."
+    },
+    {
+      "id": "contact_map",
+      "description": "4 Interactive office location cards (Antipolo Main, Mandaluyong Satellite, Makati Virtual, London UK) with custom map pin toggles."
+    },
+    {
+      "id": "footer",
+      "description": "Dark luxury footer with rotating H&SI seal SVG, quick links, compliance statement, and back-to-top progress ring."
+    }
+  ],
+  "testing_and_qa": {
+    "data_testid_convention": "All interactive elements MUST have explicit data-testid attributes in kebab-case (e.g. data-testid='inquire-now-button', data-testid='product-filter-chip-rice', data-testid='credentials-lightbox-sec').",
+    "theme_toggle_testid": "data-testid='theme-toggle-button'",
+    "inquiry_form_testid": "data-testid='inquiry-submit-button'"
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms.",
+    "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file. This disrupts the human natural reading flow of text.",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style.",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Main agent relies on these image URLs. Missing categories (especially sponsor logos) = main agent will use placeholder text which is FORBIDDEN.",
+    "All interactive elements MUST include data-testid attribute for stable testing."
+  ]
+}
